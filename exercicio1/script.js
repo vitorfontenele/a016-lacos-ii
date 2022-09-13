@@ -6,7 +6,7 @@ const array = [
   [3, 3, 4, 5, 10],
 ];
 
-let jogador = "";
+let jogador;
 for (let t in array) {
   jogador = `Jogador ${(Number(t) + 1).toString()}: `;
   let temporada = array[t];
