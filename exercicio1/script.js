@@ -9,9 +9,9 @@ const array = [
 let jogador;
 for (let t in array) {
   jogador = `Jogador ${(Number(t) + 1).toString()}: `;
-  let temporada = array[t];
-  for (let gol of temporada) {
-    jogador += String(gol) + ", ";
+  let temporadas = array[t];
+  for (let gols of temporadas) {
+    jogador += String(gols) + ", ";
   }
   console.log(jogador.slice(0, -2));
 }
